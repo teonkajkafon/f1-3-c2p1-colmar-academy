@@ -573,9 +573,14 @@ header {
   align-items: flex-start;
 }
 
-.description h3 {
+.description h3,
+.description h3 a,
+.crslnk a,
+.crslink a:link,
+.crslink a:active {
   margin: 0;
   text-decoration: none;
+  color: hsla(268, 32%, 30%, 1);
 }
 
 .description p:first-of-type {
